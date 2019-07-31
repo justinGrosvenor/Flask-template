@@ -1,5 +1,7 @@
+
+from flask import render_template
 from sn_app import app
 
 @app.route('/')
 def index():
-	return 'test text'
+	return render_template('index.html')
