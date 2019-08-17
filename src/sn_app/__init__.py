@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_bootstrap import Bootstrap
+# from flask_bootstrap import Bootstrap
 from flask_security import Security, SQLAlchemySessionUserDatastore, UserMixin, RoleMixin, login_required
 from sn_app.database import db_session, init_db
 from sn_app.models import User, Role 
@@ -30,7 +30,7 @@ app.config['SECURITY_TRACKABLE'] = True
 bcrypt = Bcrypt(app)
 db = SQLAlchemy(app)
 # mail = Mail(app)
-Bootstrap(app)
+# Bootstrap(app)
 
 class Reg_Form(RegisterForm):
 	username = StringField('User Name')
