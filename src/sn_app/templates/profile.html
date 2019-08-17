@@ -10,9 +10,12 @@
 <div class="text-center">
 	<div class="container reg-form">
 	<div class="header-box">
-		<span class="reg-heading">{{ _('Login') }}</span>
+		<span class="reg-heading">{{ _('Profile') }}</span>
 	</div>
 		<h1>{{ current_user.email }}</h1>
+		<h4>{{ current_user.username }}</h4>
+		<h4>Last login: {{ current_user.last_login_at.strftime('%m-%d-%Y') }}</h4>
+		<h4>My IP Address: {{ current_user.current_login_ip }}</h4>
 	</div>
 </div>
 

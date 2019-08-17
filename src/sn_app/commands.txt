@@ -1,6 +1,0 @@
-
-#database prompt
-psql -h localhost -p 5432 postgres
-
-#start db server
-brew services start postgresql

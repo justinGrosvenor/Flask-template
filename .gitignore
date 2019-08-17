@@ -4,4 +4,7 @@ dist/
 build/
 pip-selfcheck.json
 pyvenv.cfg
-lib
+lib/
+.DS_Store
+src/migrations/*
+src/config.py
