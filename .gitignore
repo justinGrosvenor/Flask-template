@@ -10,3 +10,4 @@ src/migrations/*
 src/config.py
 __pycache__
 src/sn_app/__pycache__/
+*.pyc
