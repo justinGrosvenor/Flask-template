@@ -8,3 +8,4 @@ lib/
 .DS_Store
 src/migrations/*
 src/config.py
+__pycache__
